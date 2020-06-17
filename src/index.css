@@ -1,0 +1,179 @@
+body{
+	background-image: url('../img/background.jfif');
+	background-repeat: round;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white; 
+}
+
+li.nav a{
+	font-size: large;
+}
+
+a:hover{
+	color: aqua;
+}
+
+a[href="index.php"]{
+	color: yellow
+}
+
+nav{
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: black;
+}
+
+li.nav span{
+	color: white;
+	font-size: large;
+	margin-left: 200px;
+}
+
+#nav_person{
+	margin-left: 950px;
+	margin-right: -220px;
+}
+
+li.nav{
+	float: left;
+	margin: 0 30px;
+}
+
+ul.person a{
+	font-size: large;
+	color: black;
+	vertical-align: super;
+	color: white;
+}
+
+ul.person a:hover{
+	color: aqua;
+}
+
+#personal{
+	margin-left: 189px;
+	margin-top: -10px;
+	border: none;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	width: 115px;
+	border: 2px silver solid;
+	border-top: none;
+	margin-top: 40px;
+	margin-left: 193px;
+	line-height: 2;
+	background-color: rgba(240,200,200,0.1);
+}
+
+.dropdown-content li:hover{
+	background-color: silver;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+#main_image{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	border: 2px silver solid;
+	height: 840px;
+}
+
+table{
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+	width: 1400px;
+	height: 500px;
+	margin-left: 20px;
+	margin-right: 0px;
+	border-collapse: collapse;
+	border: 2px silver solid;
+	background-color: rgba(240,200,200,0.1);
+}
+
+td{
+	-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:100%;
+	border-collapse: collapse;
+	border: 2px silver solid;
+	width: 500px;
+}
+
+td figure{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+figcaption{
+	font-family: Georgia,Times,sans-serif;
+	font-size: medium;
+	font-style: italic;
+	color: silver;
+}
+
+h4{
+	font-weight: bold;
+}
+
+footer hr{
+	margin-top: 20px;
+}
+
+footer p{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.refresh{
+	background-color: rgba(240,200,200,0.1);
+	border-radius: 10px;
+	position: fixed;
+	right: 10px;
+	bottom: 47px;
+	cursor: pointer;
+}
+
+.top{
+	background-color: rgba(240,200,200,0.1);
+	border-radius: 10px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+.top #topArrow{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.top #topArrow:hover{
+	border-width: 4px;
+}

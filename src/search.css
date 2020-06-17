@@ -1,0 +1,183 @@
+body{
+	background-image: url('../img/background.jfif');
+	background-repeat: round;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white; 
+}
+
+li.nav a{
+	font-size: large;
+}
+
+a:hover{
+	color: aqua;
+}
+
+a[href="search.php"]{
+	color: yellow
+}
+
+nav{
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: black;
+}
+
+li.nav span{
+	color: white;
+	font-size: large;
+	margin-left: 200px;
+}
+
+#nav_person{
+	margin-left: 950px;
+	margin-right: -220px;
+}
+
+li.nav{
+	float: left;
+	margin: 0 30px;
+}
+
+ul.person a{
+	font-size: large;
+	color: black;
+	vertical-align: super;
+	color: white;
+}
+
+ul.person a:hover{
+	color: aqua;
+}
+
+#personal{
+	margin-left: 189px;
+	margin-top: -10px;
+	border: none;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	width: 115px;
+	border: 2px silver solid;
+	border-top: none;
+	margin-top: 40px;
+	margin-left: 193px;
+	line-height: 2;
+	background-color: rgba(240,200,200,0.1);
+}
+
+.dropdown-content li:hover{
+	background-color: silver;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+#search{
+	width: 1300px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	background-color: rgba(240,200,200,0.1);
+}
+
+#picture{
+	margin-top: 60px;
+	margin-left: 100px;
+	margin-right: 30px;
+	border: 2px silver solid;
+	background-color: rgba(240,200,200,0.1);
+}
+
+.a_picture{
+	margin-top: 20px;
+	margin-bottom: 180px;
+	border: 2px silver solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+figure:first-child{
+	border-top: none;
+}
+
+figcaption{
+	font-family: Georgia,Times,sans-serif;
+	font-size: large;
+	font-style: italic;
+	color: silver;
+	margin-top: 30px;
+}
+
+.data1{
+	margin-left: 400px;
+	margin-top: -140px;
+	width: 950px;
+}
+
+footer hr{
+	margin-top: 20px;
+}
+
+footer p{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+input[type=text]{
+	margin-left: 10px;
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=submit]{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	height: 30px;
+	width: 60px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+.radio{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.radio-content{
+	color: white;
+}
