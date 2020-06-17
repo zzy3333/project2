@@ -1,0 +1,159 @@
+body{
+	background-image: url('../img/background.jfif');
+	background-repeat: round;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white; 
+}
+
+li.nav a{
+	font-size: large;
+}
+
+a:hover{
+	color: aqua;
+}
+
+nav{
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: black;
+}
+
+li.nav span{
+	color: white;
+	font-size: large;
+	margin-left: 200px;
+}
+
+#nav_person{
+	margin-left: 950px;
+	margin-right: -220px;
+}
+
+li.nav{
+	float: left;
+	margin: 0 30px;
+}
+
+ul.person a{
+	font-size: large;
+	color: black;
+	vertical-align: super;
+	color: white;
+}
+
+ul.person a:hover{
+	color: aqua;
+}
+
+#personal{
+	margin-left: 189px;
+	margin-top: -10px;
+	border: none;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	width: 115px;
+	border: 2px silver solid;
+	border-top: none;
+	margin-top: 40px;
+	margin-left: 193px;
+	line-height: 2;
+	background-color: rgba(240,200,200,0.1);
+}
+
+.dropdown-content li:hover{
+	background-color: silver;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+#upload{
+	margin-top: 50px;
+	margin-left: 700px;
+	margin-right: 300px;
+	line-height: 3;
+}
+
+#upload{
+	color: white;
+}
+
+footer hr{
+	margin-top: 100px;
+}
+
+footer p{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+input[type=text]{
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=textarea]{
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=submit]{
+	margin-top: 10px;
+	height: 30px;
+	width: 60px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+.clip{
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.button{
+	display: inline-block;
+	width: 80px;
+	height: 32px;
+	margin: 8px;
+	text-align: center;
+	line-height: 32px;
+	color: white;
+	background: #4CAF50;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,176 @@
+body{
+	background-image: url('../img/background.jfif');
+	background-repeat: round;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white; 
+}
+
+li.nav a{
+	font-size: large;
+}
+
+a:hover{
+	color: aqua;
+}
+
+nav{
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: black;
+}
+
+li.nav span{
+	color: white;
+	font-size: large;
+	margin-left: 200px;
+}
+
+#nav_person{
+	margin-left: 950px;
+	margin-right: -220px;
+}
+
+li.nav{
+	float: left;
+	margin: 0 30px;
+}
+
+ul.person a{
+	font-size: large;
+	color: black;
+	vertical-align: super;
+	color: white;
+}
+
+ul.person a:hover{
+	color: aqua;
+}
+
+#personal{
+	margin-left: 189px;
+	margin-top: -10px;
+	border: none;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	width: 115px;
+	border: 2px silver solid;
+	border-top: none;
+	margin-top: 40px;
+	margin-left: 193px;
+	line-height: 2;
+	background-color: rgba(240,200,200,0.1);
+}
+
+.dropdown-content li:hover{
+	background-color: silver;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+img#image{
+	margin-left: 100px;
+	margin-top: 40px;
+	border: 2px inset;
+	border-color: silver;
+}
+
+
+.detail{
+	width: 200px;
+	margin-top: -280px;
+	margin-left: 1100px;
+	border: 1px silver;
+	background-color: rgba(240,200,200,0.1);
+	line-height: 2;
+	color: white;
+}
+
+.detail td{
+	width: 90px;
+}
+
+.description{
+	width: 1300px;
+	height: 60px;
+	margin-top: 180px;
+	margin-left: 100px;
+	margin-bottom: 70px;
+	background-color: rgba(240,200,200,0.1);
+	color: white;
+	font-family: Georgia,Times,sans-serif;
+	font-size: large;
+	font-style: italic;
+	color: silver;
+}
+
+.like{
+	width: 110px;
+	margin-top: -600px;
+	margin-left: 1100px;
+	margin-right: 340px;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(240,200,200,0.1);
+	line-height: 2;
+	color: white;
+}
+
+.detail tr{
+	border-top: 1px silver;
+	color: white;
+}
+
+#name{
+	width: 100px;
+	margin-left: 350px;
+	background-color: rgba(240,200,200,0.1);
+	color: white;
+}
+
+
+footer hr{
+	margin-top: 200px;
+}
+
+footer p{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+input[type=submit]{
+	height: 30px;
+	width: 60px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}

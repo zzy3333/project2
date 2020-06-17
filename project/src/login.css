@@ -1,0 +1,72 @@
+body{
+	background-image: url("../img/background.jfif");
+	background-repeat: round;
+}
+
+div{
+	margin-top: 180px;
+	margin-left: 500px;
+	margin-bottom: 300px;
+	margin-right: 440px;
+	line-height: 3;
+	background-color: rgba(240,200,200,0.1);
+	padding-right: 100px;
+	padding-left: 150px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+span,p{
+	font-family: Georgia,Times,sans-serif;
+	font-size: medium;
+	color: white;
+}
+
+a{
+	color: silver;
+	text-decoration: none;
+}
+
+a:hover{
+	color: aqua;
+}
+
+footer hr{
+	margin-top: 20px;
+}
+
+footer p{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+input[type=text]{
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=password]{
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=submit]{
+	height: 30px;
+	width: 60px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
